@@ -35,7 +35,7 @@ const TabDisplay = ()=>(
             headerShown:false,
             tabBarActiveTintColor: 'red',
             tabBarInactiveTintColor :'green',
-            tabBarBadge : '1',
+            // tabBarBadge : '1',
             tabBarIcon: ({focused}) =>focused ? (
                  <Text style={styles.tabTitle}>act</Text>
                 
