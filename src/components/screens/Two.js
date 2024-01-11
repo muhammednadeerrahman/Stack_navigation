@@ -6,7 +6,7 @@ const {width, height} = Dimensions.get('screen')
 export default function Two({navigation}) {
   return (
     <SafeAreaView style={styles.Main}>
-    <Text style={styles.title}>Home</Text>
+    <Text style={styles.title}>two</Text>
     <TouchableOpacity onPress={()=>navigation.navigate('Contact')} style={styles.button}>
         <Text style={styles.buttonText}>Contact</Text>
     </TouchableOpacity>
@@ -25,7 +25,8 @@ Main:{
 width,
 flex:1,
 alignItems: 'center',
-justifyContent: 'center'
+justifyContent: 'center',
+backgroundColor: 'pink'
 },
 title  : {
 fontSize: 24,

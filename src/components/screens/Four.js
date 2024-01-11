@@ -16,7 +16,8 @@ Main:{
 width,
 flex:1,
 alignItems: 'center',
-justifyContent: 'center'
+justifyContent: 'center',
+backgroundColor: 'orange'
 },
 title  : {
 fontSize: 24,

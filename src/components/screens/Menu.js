@@ -27,7 +27,8 @@ export default function Menu({navigation}) {
             width,
             flex:1,
             alignItems: 'center',
-            justifyContent: 'center'
+            justifyContent: 'center',
+            backgroundColor: 'lightblue'
         },
         title  : {
             fontSize: 24,
