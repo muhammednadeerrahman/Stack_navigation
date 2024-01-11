@@ -3,7 +3,7 @@ import React from 'react'
 
 const {width, height} = Dimensions.get('screen')
 
-export default function Menu() {
+export default function Menu({navigation}) {
     return (
         <SafeAreaView style={styles.Main}>
                 <Text style={styles.title}>Menu Page</Text>
